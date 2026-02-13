@@ -1,0 +1,33 @@
+
+> jm-co-website@0.1.0 dev
+> next dev
+
+⚠ Port 3000 is in use by an unknown process, using available port 3001 instead.
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3001
+- NPersisting failed: Unable to open static sorted file referenced from 00000072.meta
+
+Caused by:
+    0: Unable to open static sorted file 00000071.sst
+    1: No such file or directory (os error 2)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allow GET / 200 in 360ms (compile: 27ms, render: 333ms)
+ GET /listings 200 in 162ms (compile: 7ms, render: 155ms)
+ GET /listings/1 200 in 243ms (compile: 73ms, render: 171ms)
+ GET /about 200 in 1153ms (compile: 947ms, render: 206ms)
+ GET /contact 200 in 774ms (compile: 619ms, render: 155ms)
+ GET / 200 in 391ms (compile: 8ms, render: 382ms)
+ GET /properties 404 in 931ms (compile: 708ms, render: 223ms)
+ GET /properties/1 404 in 104ms (compile: 7ms, render: 98ms)
+ GET /about 200 in 295ms (compile: 9ms, render: 287ms)
+ GET /contact 200 in 143ms (compile: 4ms, render: 138ms)
+ GET / 200 in 486ms (compile: 9ms, render: 478ms)
+ GET /properties 404 in 309ms (compile: 10ms, render: 299ms)
+ GET /properties/1 404 in 183ms (compile: 9ms, render: 173ms)
+ GET /about 200 in 
+thread 'tokio-runtime-worker' (11465) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operatio✓ Compiled in 41ms
+ GET / 200 in 604ms (compile: 145ms, render: 459ms)
+ GET /properties 200 in 1288ms (compile: 849ms, render: 439ms)
+ GET /properties/1 200 in 2.0s (compile: 1499ms, render: 508ms)
+ GET /about 200 in 485ms (compile: 141ms, render: 344ms)
+ GET /contact 200 in 473ms (compile: 168ms, render: 305ms)
